@@ -5,4 +5,6 @@ Version ruby 2.3.1+
 
 Start Progect:
 
->>ruby lib.rb
+```sh
+$ ruby lib.rb
+```

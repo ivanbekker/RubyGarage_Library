@@ -6,5 +6,5 @@ Version ruby 2.3.1+
 Start Progect:
 
 ```sh
-$ ruby lib.rb
+$ ruby main.rb
 ```

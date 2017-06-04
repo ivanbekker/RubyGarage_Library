@@ -1,0 +1,151 @@
+--- !ruby/object:Library
+
+readers:
+- &31 !ruby/object:Reader
+  name: John Doe
+  email: jdoe@gmail.com
+  city: New York
+  street: 1st Street
+  house: 5
+- &32 !ruby/object:Reader
+  name: Jane Doe
+  email: jane@hotmail.com
+  city: New York
+  street: 1st Street
+  house: 5
+- &33 !ruby/object:Reader
+  name: Jack Jackson
+  email: jjackson@gmail.com
+  city: New York
+  street: 2nd Street
+  house: 8
+
+authors:
+- &1 !ruby/object:Author
+  name: Jay Asher
+  biography: Jay Asher's debut YA novel, Thirteen Reasons Why, has appeared regularly on the New York Times bestsellers list for the past nine years. It has sold over 2.5 million copies in the United States alone and is currently in production to be a thirteen-part series on Netflix. His second YA novel, The Future of Us, was coauthored with Printz Honor winner Carolyn Mackler. He is also the author of the forthcoming What Light. His novels have been translated into thirty-five languages. Visit his blog at www.jayasher.blogspot.com and follow him on Twitter @jayasherguy.
+- &2 !ruby/object:Author
+  name: Rupi Kaur
+  biography: Rupi Kaur is a renowned author, poet, and multimedia artist based in Toronto, Canada. Kaur’s work engages with themes of love, loss, trauma, healing, and femininity, and is both deeply personal and universally relatable. Her work, visually suited for a sharing culture and one that communicates particularly well for platforms like Instagram, have turned her into a viral sensation, first within feminist communities, and then within the media ecosystem at large. Her prose is what will keep her as an important poet for decades to come. Kaur shares her writing Kaur’s creative direction and photography have broken international boundaries and have since been featured in galleries, magazines, and spaces around the world.
+- &3 !ruby/object:Author
+  name: Liane Moriarty
+  biography: Liane Moriarty is the Australian author of six internationally best-selling novels, Three Wishes, The Last Anniversary, What Alice Forgot, The Hypnotist’s Love Story and the number 1 New York Times bestsellers The Husband's Secret and Big Little Lies.
+
+books:
+- &11 !ruby/object:Book
+  title: Thirteen Reasons Why
+  author: *1
+- &12 !ruby/object:Book
+  title: Milk and Honey
+  author: *2
+- &13 !ruby/object:Book
+  title: Big Little Lies
+  author: *3
+
+orders:
+- &21 !ruby/object:Order
+  book: *11
+  reader: *31
+  date: 2017-04-17 10:50:59 +0300
+- &22 !ruby/object:Order
+  book: *11
+  reader: *32
+  date: 2017-04-16 14:53:52 +0300
+- &23 !ruby/object:Order
+  book: *12
+  reader: *33
+  date: 2017-04-14 13:33:32 +0300
+- &24 !ruby/object:Order
+  book: *12
+  reader: *32
+  date: 2017-04-13 19:53:12 +0300
+- &25 !ruby/object:Order
+  book: *13
+  reader: *32
+  date: 2017-03-20 12:23:22 +0300--- !ruby/object:Library
+
+readers:
+- &31 !ruby/object:Reader
+  name: John Doe
+  email: jdoe@gmail.com
+  city: New York
+  street: 1st Street
+  house: 5
+- &32 !ruby/object:Reader
+  name: Jane Doe
+  email: jane@hotmail.com
+  city: New York
+  street: 1st Street
+  house: 5
+- &33 !ruby/object:Reader
+  name: Jack Jackson
+  email: jjackson@gmail.com
+  city: New York
+  street: 2nd Street
+  house: 8
+
+authors:
+- &1 !ruby/object:Author
+  name: Jay Asher
+  biography: Jay Asher's debut YA novel, Thirteen Reasons Why, has appeared regularly on the New York Times bestsellers list for the past nine years. It has sold over 2.5 million copies in the United States alone and is currently in production to be a thirteen-part series on Netflix. His second YA novel, The Future of Us, was coauthored with Printz Honor winner Carolyn Mackler. He is also the author of the forthcoming What Light. His novels have been translated into thirty-five languages. Visit his blog at www.jayasher.blogspot.com and follow him on Twitter @jayasherguy.
+- &2 !ruby/object:Author
+  name: Rupi Kaur
+  biography: Rupi Kaur is a renowned author, poet, and multimedia artist based in Toronto, Canada. Kaur’s work engages with themes of love, loss, trauma, healing, and femininity, and is both deeply personal and universally relatable. Her work, visually suited for a sharing culture and one that communicates particularly well for platforms like Instagram, have turned her into a viral sensation, first within feminist communities, and then within the media ecosystem at large. Her prose is what will keep her as an important poet for decades to come. Kaur shares her writing Kaur’s creative direction and photography have broken international boundaries and have since been featured in galleries, magazines, and spaces around the world.
+- &3 !ruby/object:Author
+  name: Liane Moriarty
+  biography: Liane Moriarty is the Australian author of six internationally best-selling novels, Three Wishes, The Last Anniversary, What Alice Forgot, The Hypnotist’s Love Story and the number 1 New York Times bestsellers The Husband's Secret and Big Little Lies.
+
+books:
+- &12 !ruby/object:Book
+  title: The Last Temptation
+  author: Ms. Daniela Stamm
+- &3 !ruby/object:Book
+  title: The Wind's Twelve Quarters
+  author: Chasity Pagac
+- &16 !ruby/object:Book
+  title: The Widening Gyre
+  author: Frederick Ryan
+- &2 !ruby/object:Book
+  title: Time To Murder And Create
+  author: Tiara Runolfsson DDS
+- &6 !ruby/object:Book
+  title: Consider Phlebas
+  author: Ms. Tito Boehm
+- &4 !ruby/object:Book
+  title: The Road Less Traveled
+  author: Declan Swaniawski DDS
+- &1 !ruby/object:Book
+  title: Brandy of the Damned
+  author: Casimer Predovic
+- &8 !ruby/object:Book
+  title: The World, the Flesh and the Devil
+  author: Preston Lebsack III
+- &5 !ruby/object:Book
+  title: Taming a Sea Horse
+  author: Einar Shields
+- &9 !ruby/object:Book
+  title: To Your Scattered Bodies Go
+  author: Mrs. Maryam Kling
+
+orders:
+- &21 !ruby/object:Order
+  book: *11
+  reader: *31
+  date: 2017-04-17 10:50:59 +0300
+- &22 !ruby/object:Order
+  book: *11
+  reader: *32
+  date: 2017-04-16 14:53:52 +0300
+- &23 !ruby/object:Order
+  book: *12
+  reader: *33
+  date: 2017-04-14 13:33:32 +0300
+- &24 !ruby/object:Order
+  book: *12
+  reader: *32
+  date: 2017-04-13 19:53:12 +0300
+- &25 !ruby/object:Order
+  book: *13
+  reader: *32
+  date: 2017-03-20 12:23:22 +0300
+
